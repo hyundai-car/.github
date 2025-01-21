@@ -1,6 +1,6 @@
 # MyCarFor.me
 
-![MyCarForMe](https://github.com/user-attachments/assets/5e0c9794-b4c2-47c6-a154-30a1c1ee93e9)
+ ![MyCarForMe](https://github.com/user-attachments/assets/8aa2938f-e22f-48aa-aaf3-59b44ce16b26)
 
 ## 1. 프로젝트 개요
 > `MyCarForMe`는  처음부터 끝까지 원스톱으로 진행되는 중고차 거래 플랫폼으로,
