@@ -3,6 +3,7 @@
  ![MyCarForMe](https://github.com/user-attachments/assets/8aa2938f-e22f-48aa-aaf3-59b44ce16b26)
 
 ## 1. 프로젝트 개요
+[🍿 시연영상](https://www.youtube.com/watch?v=6WqxpxY3zD0)
 > `MyCarForMe`는  처음부터 끝까지 원스톱으로 진행되는 중고차 거래 플랫폼으로,
  맞춤형 비교 분석과 실시간 배송 추적까지 제공합니다. 
  
