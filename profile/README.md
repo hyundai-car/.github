@@ -19,9 +19,64 @@
 ### 🏗️ 시스템 아키텍처
 <img width="1280" alt="Image" src="https://github.com/user-attachments/assets/cd8e6f10-7da1-4748-a9de-163e87d17394" />
 
+</details>
+
 ## 2. 주요 기능
 ![feature](https://github.com/user-attachments/assets/826592b0-b11b-4b60-9081-a3f5745834ee)
 
+
+## 3. 수행 경과
+
+### 💍 시퀀스 다이어그램
+<details> <summary>  보기 </summary>
+ 
+![payment](https://github.com/user-attachments/assets/88312975-c60c-4764-9139-965e6b8f0cdf)
+
+![delivery](https://github.com/user-attachments/assets/f8c0e4fa-a563-481f-ae73-4e95aa47c811)
+
+</details>
+ 
+# Frontend 🍰
+
+<details>
+ 
+### ☑️ 기능 분할 설계(FSD)를 이용한 FE 아키텍처 구성 💻
+### ☑️ FSD Debug 도구 도입 📂
+### 중앙화된 에러 관리 전략 ⚠️
+  - 라우팅 과정의 모든 에러를 상위 ErrorBoundary로 전파해 일관전 에러 처리 흐름 보장
+### 중앙화된 경로 관리 시스템  📍
+  - 경로 관리 시스템 Single Source of Truth 구현, pathKeys를 활용해 모든 경로를 중앙에서 관리
+  - 모듈화를 통해 각 라우트를 독립된 파일로 관리  
+### HOC 패턴을 활용한 코드 최적화 ✨
+  - 재사용 가능한 Suspense 로직 구현 (WithSuspense)
+  - Code Splitting을 위한 일관된 패턴 제공
+  - 컴포넌트 레벨의 로딩 상태 관리
+### 타입 시스템 강화 🔧
+  - Zod를 활용한 런타임 유효성 검증, TypeScript의 타입 안정성 확보
+
+## 트러블슈팅
+### FSD 구조에서 계층 간 의존성 역전 이슈 발생 🔄
+- 해결 : Slot 패턴을 통한 해결
+
+</details>
+
+# Backend ☕️
+
+<details>
+ 
+### ☑️ 중고차 데이터
+1. AI 학습을 위한 학습용 데이터 수집(크롤링)과 전처리
+2. 중고차 시세 예측 AI 모델 개발
+3. 운영용 데이터 후처리 작업과 자체 가치 평가 기준 추가
+
+### ☑️ Keycloak 인증서버 구현
+![keycloak](https://github.com/user-attachments/assets/e753349b-524d-4b57-9f65-911a7a0af7c5)
+
+### ☑️ 사용자의 선호도와 선택 조건에 기반한 차량 추천 시스템
+
+</details>
+
+ 
 ## 🖐️ 팀원 소개
 
 |                                                  정세진                                                   |                                                  곽혜정                                                   |                                                  윤서진                                                   |                                                  여진홍                                                   |                                                  정한얼                                                   |
